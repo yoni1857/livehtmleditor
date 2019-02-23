@@ -1,0 +1,119 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+#__code__{
+    width: 100%;
+    height: 55%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    resize: none;
+}
+
+#__btn__{
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#__Console__{
+    width: 100%;
+    height: 25%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    resize: none;
+}
+
+#__prompt__{
+    display: inline-block;
+    width: 97%;
+    height: 3%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#__one__{
+    position: fixed;
+    height: 100%;
+    float: left;
+    width: 50%;
+    background-color: lightgrey;
+}
+
+#__two__{
+    height: 100%;
+    float: right;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#__two__ *{
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: normal;
+}
+
+#__windowbuttons__{
+    padding: 0px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 30px;
+    margin-bottom: auto;
+    height: 5px;
+    top: 0;
+    display: block;
+}
+
+#__windowtitle__{
+    margin: auto;
+    display: block;
+}
+
+#__windowbuttons__ *{
+    display: block;
+    margin-right: auto;
+    width: 10%;
+    height: 100%;
+}
+
+#__preview__{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    border: 3px transparent solid;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: block;
+}
+
+.__border__{
+    border: 2px black solid;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: white;
+}
+
+#__lbl1__{
+    display: block;
+    width: 100%;
+    height: 1%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}

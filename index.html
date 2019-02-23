@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Live Code Editor</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="__one__">
+        <textarea class="__border__" id="__code__" spellcheck="false"><head>
+    <title>Document</title>
+</head>
+<body>
+    <h1> Live Coding!!!!! </h1>
+    <script>
+        /*
+        If you want to use document.write / document.createElement
+        please use preview.innerHTML += (html code/element);
+        but you can still use document.getElementById() if you want
+        to. list of const inner elements:
+        const __one__ = document.getElementById("__one__");
+        const __two__ = document.getElementById("__preview__");
+        const __windowtitle__ = document.getElementById("__windowtitle__");
+        const __meprompt__ = document.getElementById("__prompt__");
+        const __meconsole__ = document.getElementById("__Console__");
+        const preview = document.getElementById("__preview__");
+        const __txt__ = document.getElementById("__code__");
+        let __code__ = "";
+        const __btn__ = document.getElementById("__btn__");
+        */
+    </script>
+</body></textarea>
+        <button class="__border__" id="__btn__">Save & Run</button>
+        <p id="__lbl1__">JavaScript Console: </p>
+        <textarea disabled id="__Console__" class="__border__"></textarea>
+        >> <input type="text" id="__prompt__" class="__border__">
+    </div>
+    <div id="__two__">
+        <center>
+            <p style="color: black;" id="__windowtitle__" class="__border__"></p>
+        </center>
+        <div id="__windowbuttons__"></div>
+        <div id="__preview__" src="./preview.html">
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
